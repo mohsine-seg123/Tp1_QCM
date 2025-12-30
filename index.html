@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score">
+       
+    </div>
+  <section class="test">
+         <p class="titre">Test QCM</p>
+         <form id="EXAM">
+            <p class="choix"> 1.choix simple</p>
+             <fieldset>
+                   <legend>capitale de France</legend>
+                   <input type="radio" id="q1_paris" name="q1" value="Paris">
+                   <label for="q1_paris">Paris</label><br>
+                   <input type="radio" id="q1_Lion" name="q1" value="Lion">
+                   <label for="q1_Lion">Lion</label><br>
+                   <input type="radio" id="q1_Lile" name="q1" value="Lile">
+                   <label for="q1_Lile">Lile</label><br>
+             </fieldset>
+
+              <fieldset>
+                   <legend>capitale de Maroc</legend>
+                   <input type="radio" id="q1_Erfoud" name="q2" value="Erfoud">
+                   <label for="q1_Erfoud">Erfoud</label><br>
+                   <input type="radio" id="q1_Tanger" name="q2" value="Tanger">
+                   <label for="q1_Tanger">Tanger</label><br>
+                   <input type="radio" id="q1_Rabat" name="q2" value="Rabat">
+                   <label for="q1_Rabat">Rabat</label><br>
+             </fieldset>
+
+              <fieldset>
+                   <legend>capitale de USA</legend>
+                   <input type="radio" id="q1_NewYork" name="q3" value="NewYork">
+                   <label for="q1_NewYork">New York</label><br>
+                   <input type="radio" id="q1_Washinton" name="q3" value="Washinton">
+                   <label for="q1_Washinton">Washinton</label><br>
+                   <input type="radio" id="q1_California" name="q3" value="California">
+                   <label for="q1_California">California</label><br>
+             </fieldset>
+
+
+             <p class="choix"> 2.choix multiple</p>
+
+             <fieldset>
+        <legend>Quels pays sont en Afrique ?</legend>
+        <input type="checkbox" id="q2_maroc" name="q4" value="Maroc">
+        <label for="q2_maroc">Maroc</label><br>
+
+        <input type="checkbox" id="q2_france" name="q4" value="France">
+        <label for="q2_france">France</label><br>
+
+        <input type="checkbox" id="q2_egypte" name="q4" value="Égypte">
+        <label for="q2_egypte">Égypte</label><br>
+           </fieldset>
+
+           <fieldset>
+        <legend>Les langages de programmation web sont :</legend>
+
+        <input type="checkbox" id="q4_css" name="q5" value="CSS">
+        <label for="q4_css">CSS</label><br>
+
+        <input type="checkbox" id="q4_js" name="q5" value="JavaScript">
+        <label for="q4_js">JavaScript</label><br>
+
+        <input type="checkbox" id="q4_excel" name="q5" value="Excel">
+        <label for="q4_excel">Excel</label><br>
+          </fieldset>
+              <button class="valid" type="button" onclick="verifier()">Valid</button>
+         </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

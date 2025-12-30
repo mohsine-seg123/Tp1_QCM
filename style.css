@@ -1,0 +1,74 @@
+
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    cursor: pointer;
+    height:100%;
+    background-color: rgb(254, 252, 255);
+}
+
+.score{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    right: 20px;
+    top:200px;
+    background-color: rgb(237, 237, 243);
+    border-radius: 10px;
+    box-shadow: 0 0 2px blueviolet;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+section{
+    width:50%;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+section .titre{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    box-sizing: 0 0 1px blue;
+    color: blue;
+}
+
+section .choix{
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+section fieldset{
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(240, 238, 241);
+    margin-top: 20px;
+}
+
+ section.test fieldset legend {
+  border-radius: 10px;
+  background-color: #e7f0ff;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+ input[type="radio"] {
+    margin-right: 6px;
+  }
+
+.valid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(181, 190, 250);
+   padding: 10px;
+   margin-top: 20px;
+}
